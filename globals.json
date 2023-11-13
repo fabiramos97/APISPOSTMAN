@@ -1,0 +1,21 @@
+{
+	"id": "85f8fbec-22a9-4486-8703-151cebddf418",
+	"values": [
+		{
+			"key": "orderId",
+			"value": "10",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "tool",
+			"value": "",
+			"type": "default",
+			"enabled": false
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2023-11-08T16:54:55.288Z",
+	"_postman_exported_using": "Postman/10.19.14"
+}
