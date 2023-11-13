@@ -13,5 +13,5 @@ steps:
 - script: newman run storecollection.json -g postman_globals.json
   displayName: 'Store Collection'
 
--script: newman run petCollection.json -g postman_globals.json
+- script: newman run petCollection.json -g postman_globals.json
   displayName: 'petCollection'
