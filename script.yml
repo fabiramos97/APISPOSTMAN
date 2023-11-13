@@ -1,0 +1,14 @@
+trigger:
+  branches:
+    exclude:
+      - '*'
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: npm install -g newman
+  displayName: 'Install Newman'
+
+- script: newman run storecollection.json -g globals.json
+  displayName: 'Run Newman Tests'
