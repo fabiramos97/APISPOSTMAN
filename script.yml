@@ -10,5 +10,8 @@ steps:
 - script: npm install -g newman
   displayName: 'Install Newman'
 
-- script: newman run storecollection.json -g globals.json
-  displayName: 'Run Newman Tests'
+- script: newman run storecollection.json -g postman_globals.json
+  displayName: 'Store Collection'
+
+-script: newman run petCollection.json -g postman_globals.json
+  displayName: 'petCollection'
